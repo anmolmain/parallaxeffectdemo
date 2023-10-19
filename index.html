@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Effect</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        html,body{
+            overflow-x: hidden;
+        }   
+        section {
+            text-align: center;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+        }
+
+        .textSection {
+            margin: auto;
+            color: white;
+        }
+
+        .textSection h1 {
+            font-size: 6rem;
+            padding: 2%;
+        }
+
+        .textSection p {
+            font-size: 2rem;
+            color: white;
+            padding: 2%;
+        }
+
+        .section-1 {
+            border: 1px solid black;
+            background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&w=800");
+            background-size: cover;
+            background-attachment: fixed; /*KEY POINT*/
+        }
+
+        .section-2 {
+            border: 1px solid black;
+            background-image: url("https://images.pexels.com/photos/1643280/pexels-photo-1643280.jpeg?auto=compress&cs=tinysrgb&w=800");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .section-3 {
+            border: 1px solid black;
+            background-image: url("https://images.pexels.com/photos/2449600/pexels-photo-2449600.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .section-4 {
+            border: 1px solid black;
+            background-image: url("https://images.pexels.com/photos/696407/pexels-photo-696407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section-1">
+        <div class="textSection">
+            <h1>Section-1</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo excepturi ad impedit saepe tenetur magnam
+                eius
+                maiores </p>
+        </div>
+
+    </section>
+    <section class="section-2">
+        <div class="textSection">
+            <h1>Section-2</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo excepturi ad impedit saepe tenetur magnam
+                eius
+                maiores </p>
+        </div>
+
+    </section>
+    <section class="section-3">
+        <div class="textSection">
+            <h1>Section-3</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo excepturi ad impedit saepe tenetur magnam
+                eius
+                maiores </p>
+        </div>
+
+    </section>
+    <section class="section-4">
+        <div class="textSection">
+            <h1>Section-4</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo excepturi ad impedit saepe tenetur magnam
+                eius
+                maiores </p>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
